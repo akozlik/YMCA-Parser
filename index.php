@@ -1,8 +1,8 @@
 <?php
-	$host = "localhost";
-	$username = "root";
-	$password = "root";
-	$db = "ymca";
+	$host = "";
+	$username = "";
+	$password = "";
+	$db = "";
 	
 	if (!$conn = mysql_connect($host, $username, $password))
 	echo "Problem connecting to database: " . mysql_error();
